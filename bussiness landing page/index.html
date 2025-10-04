@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mama's Homemade Delights - Artisan Snacks</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <style>
+        /* Custom Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #FFFAF0;
+            color: #4A5568;
+        }
+        .hero-bg {
+            background: linear-gradient(135deg, #FFF4E6 0%, #FFF7ED 100%);
+        }
+        .btn-primary {
+            background-color: #FF6B6B;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #FF4757;
+            transform: translateY(-3px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .card {
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-800">Mama's Homemade Delights</div>
+            <div class="space-x-4">
+                <a href="#services" class="text-gray-600 hover:text-red-500">Services</a>
+                <a href="#about" class="text-gray-600 hover:text-red-500">About</a>
+                <a href="#contact" class="text-gray-600 hover:text-red-500">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-bg pt-24 pb-16">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 text-center md:text-left">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+                    Delicious Homemade Snacks <br>Crafted with Love
+                </h1>
+                <p class="text-xl text-gray-600 mb-6">
+                    Artisan snacks made fresh daily, using only the finest local ingredients.
+                </p>
+                <a href="#contact" class="btn-primary text-white font-bold py-3 px-6 rounded-full inline-block">
+                    Order Now
+                </a>
+            </div>
+            <div class="md:w-1/2 mt-8 md:mt-0">
+                <img src="https://www.hometeamns.sg/frontline/wp-content/uploads/2023/11/anchor-image.jpg" alt="Homemade Snacks" class="rounded-lg shadow-xl">
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Delightful Offerings</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card bg-gray-50 p-6 rounded-lg text-center">
+                    <i data-feather="package" class="mx-auto mb-4 text-red-500" width="64" height="64"></i>
+                    <h3 class="text-xl font-semibold mb-3">Custom Snack Boxes</h3>
+                    <p>Personalized snack collections tailored to your taste and dietary needs.</p>
+                </div>
+                <div class="card bg-gray-50 p-6 rounded-lg text-center">
+                    <i data-feather="truck" class="mx-auto mb-4 text-red-500" width="64" height="64"></i>
+                    <h3 class="text-xl font-semibold mb-3">Local Delivery</h3>
+                    <p>Fresh snacks delivered straight to your doorstep within 24 hours.</p>
+                </div>
+                <div class="card bg-gray-50 p-6 rounded-lg text-center">
+                    <i data-feather="heart" class="mx-auto mb-4 text-red-500" width="64" height="64"></i>
+                    <h3 class="text-xl font-semibold mb-3">Healthy Ingredients</h3>
+                    <p>Made with organic, locally sourced ingredients with no preservatives.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">What Our Customers Say</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <p class="italic mb-4">"The most delicious homemade snacks I've ever tasted! Always fresh and full of flavor."</p>
+                    <div class="flex items-center">
+                        <img src="#" class="rounded-full mr-4" alt="Customer">
+                        <div>
+                            <h4 class="font-semibold">Sarah Johnson</h4>
+                            <p class="text-sm text-gray-600">Local Foodie</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <p class="italic mb-4">"Perfect snacks for my health-conscious family. Love the organic ingredients!"</p>
+                    <div class="flex items-center">
+                        <img src="#" class="rounded-full mr-4" alt="Customer">
+                        <div>
+                            <h4 class="font-semibold">Mike Rodriguez</h4>
+                            <p class="text-sm text-gray-600">Fitness Enthusiast</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <p class="italic mb-4">"The custom snack boxes are amazing. They always know exactly what I like!"</p>
+                    <div class="flex items-center">
+                        <img src="#" class="rounded-full mr-4" alt="Customer">
+                        <div>
+                            <h4 class="font-semibold">Emily Chen</h4>
+                            <p class="text-sm text-gray-600">Corporate Professional</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Contact Us</h2>
+            <div class="max-w-lg mx-auto bg-gray-50 p-8 rounded-lg shadow-md">
+                <form id="contactForm" class="space-y-4">
+                    <input type="text" placeholder="Your Name" required class="w-full p-3 rounded border">
+                    <input type="email" placeholder="Your Email" required class="w-full p-3 rounded border">
+                    <textarea placeholder="Your Message" required class="w-full p-3 rounded border h-32"></textarea>
+                    <button type="submit" class="btn-primary w-full text-white font-bold py-3 rounded-full">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Mama's Homemade Delights. All Rights Reserved.</p>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="text-gray-300 hover:text-white">Privacy Policy</a>
+                <a href="#" class="text-gray-300 hover:text-white">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Feather Icons
+        feather.replace();
+
+        // Smooth Scrolling for Navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form Submission Handler
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
